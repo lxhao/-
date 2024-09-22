@@ -14,7 +14,7 @@ for root, dirs, files in os.walk("./"):
 
         start = lines.index('******\n')
         end = lines[start+1:].index('******\n')
-        end += start
+        end += start + 1
         common_lines = open('README.md').readlines()
         if start >= end:
             print(f'skip {file_path}')
