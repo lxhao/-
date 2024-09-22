@@ -13,7 +13,8 @@ for root, dirs, files in os.walk("./"):
             continue
 
         start = lines.index('******\n')
-        end = lines.index('*******\n')
+        end = lines[start+1:].index('******\n')
+        end += start
         common_lines = open('README.md').readlines()
         if start >= end:
             print(f'skip {file_path}')
