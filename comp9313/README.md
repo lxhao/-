@@ -31,7 +31,9 @@ CIS6930,COMP10002,COMP20003,COMP2041,COMP30023,COMP3506,COMP775,CS0019,EMS5730,E
 
 <br/>
 部分接单记录:
+<br/>
 ![接单记录](../images/orders.png)
+<br/>
 *******
 
 ## **COMP9313 23T2 Project 1****12 marks)**
